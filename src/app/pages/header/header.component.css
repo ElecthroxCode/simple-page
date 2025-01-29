@@ -1,0 +1,8 @@
+header{background-color:#001f00; color:#ff773d; display: flex; padding: 4px 20px; height: 50px;
+align-items: center; justify-content: space-between;}
+.title{font-weight: bold; font-size: 2rem;}
+
+ul{list-style-type: none; display: flex;}
+ul > li{ padding: 0px 16px; font-weight: bold; cursor: pointer; height: 30px;
+     display: grid; align-items: center; transition:  .3s all ease;}
+ul > li:hover{background-color: #ffc64c; color: #005117;}
